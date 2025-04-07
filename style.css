@@ -1,0 +1,46 @@
+body {
+    background-color:lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+
+h1, h2 {
+    letter-spacing: 2px;
+    color:firebrick;
+}
+h1 {
+    font-size: xx-large;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    form {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 10px
+    }
+
+    input, textarea, select, button {
+        letter-spacing: 1px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: goldenrod;
+    }
+
+    table{
+        border: solid;
+        border-width: 2px;
+        border-collapse: collapse;
+        word-spacing: 2px;
+        border-color: goldenrod;
+        
+    }
+    tr:nth-child(even) {
+        background-color:rgb(241, 203, 107)
+    }
+
+    .classification {
+        background-color:darkgoldenrod
+    }
